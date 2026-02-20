@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>VK Spring Challenge | Чемпионат по дизайну и разработке для студентов</title>
+    
+    <meta name="description" content="Участвуй в весеннем чемпионате VK для студентов колледжей и вузов по направлениям дизайн и разработка. Крутые призы, опыт и возможность стажировки в VK">
+    <meta name="keywords" content="VK, чемпионат, дизайн, разработка, студенты, конкурс, программирование, UI/UX">
+    <meta name="author" content="VK Education">
+    
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            <div class="logo">
+                <span class="logo__text">VK</span>
+            </div>
+            <div class="header__contacts">
+                <svg class="icon icon--mail" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6ZM20 6L12 11L4 6H20ZM20 18H4V8L12 13L20 8V18Z" fill="#0077FF"/>
+                </svg>
+                <a href="mailto:challenge@vk.education">spring_championship2026@vk.education</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero__inner">
+                <h1 class="hero__title">VK Spring Championship</h1>
+                <p class="hero__dates">с 11 по 7 марта 2026</p>
+                <p class="hero__description">К участию в чемпионате допускаются студенты всех ВУЗов страны. Соревнуйся в дизайне и разработке и выигрывай крутые призы</p>
+                <div class="hero__buttons">
+                    <button class="btn btn--primary" id="registerBtn">Регистрация</button>
+                    <a href="#about" class="btn btn--outline">Узнать больше</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section-title">О чемпионате</h2>
+                <p class="section-subtitle">VK Spring Championship — это возможность проявить себя, получить опыт решения реальных задач и побороться за ценные призы</p>
+                
+                <div class="features">
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <img src="assets/icons/real_tasks.svg" alt="feature icon" width="64" height="64">
+                        </div>
+                        <h3 class="feature__title">Реальные задачи</h3>
+                        <p class="feature__text">Задания от экспертов VK, приближенные к реальным рабочим процессам</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <img src="assets/icons/mentor.svg" alt="feature icon" width="64" height="64">
+                        </div>
+                        <h3 class="feature__title">Менторская поддержка</h3>
+                        <p class="feature__text">Опытные наставники помогут советами и поделятся опытом</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <img src="assets/icons/prizes.svg" alt="feature icon" width="64" height="64">
+                        </div>
+                        <h3 class="feature__title">Ценные призы</h3>
+                        <p class="feature__text">Денежные сертификаты, мерч VK и возможность попасть на стажировку</p>
+                    </div>
+                </div>
+
+                <h2 class="section-title">Направления</h2>
+                <div class="cards">
+                    
+                    <div class="card">
+                        <div class="card__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.4 16.6L4.8 12L9.4 7.4L8 6L2 12L8 18L9.4 16.6ZM14.6 16.6L19.2 12L14.6 7.4L16 6L22 12L16 18L14.6 16.6Z" fill="#0077FF"/>
+                            </svg>
+                        </div>
+                        <h3 class="card__title">Веб-разработка</h3>
+                        <p class="card__text">Создание интерактивных веб-страниц, адаптивная верстка, программирование на JavaScript</p>
+                        <ul class="card__list">
+                            <li>HTML5, CSS3</li>
+                            <li>Базовый JavaScript</li>
+                            <li>Адаптивная верстка</li>
+                            <li>Понимание семантики</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-5-9h10v2H7z" fill="#0077FF"/>
+                            </svg>
+                        </div>
+                        <h3 class="card__title">UI/UX дизайн</h3>
+                        <p class="card__text">Создание современных интерфейсов, проектирование пользовательского опыта, работа в Figma, создание прототипов</p>
+                        <ul class="card__list">
+                            <li>Владение Figma</li>
+                            <li>Понимание основ UX</li>
+                            <li>Умение работать с сетками</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="prizes">
+            <div class="container">
+                <h2 class="section-title">Призы победителям</h2>
+                <div class="prizes__grid">
+                    <div class="prize-card prize-card--first">
+                        <div class="prize-card__medal">🥇</div>
+                        <div class="prize-card__place">1 место</div>
+                        <div class="prize-card__money" id="prize-card__money1">200 000 ₽</div>
+                        <div class="prize-card__items">
+                            <span>Приглашение на стажировку</span>
+                            <span>Мерч VK</span>
+                        </div>
+                    </div>
+                    <div class="prize-card prize-card--second">
+                        <div class="prize-card__medal">🥈</div>
+                        <div class="prize-card__place">2 место</div>
+                        <div class="prize-card__money" id="prize-card__money2">100 000 ₽</div>
+                        <div class="prize-card__items">
+                            <span>Сертификат VK Store</span>
+                            <span>Мерч VK</span>
+                        </div>
+                    </div>
+                    <div class="prize-card prize-card--third">
+                        <div class="prize-card__medal">🥉</div>
+                        <div class="prize-card__place">3 место</div>
+                        <div class="prize-card__money"  id="prize-card__money3">50 000 ₽</div>
+                        <div class="prize-card__items">
+                            <span>Мерч VK</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="prizes__additional">
+                    <p>Все финалисты получат именные сертификаты и доступ к закрытым мероприятиям VK Education</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="subscribe">
+            <div class="container">
+                <div class="subscribe__wrapper">
+                    <h2 class="section-title">Не пропусти новости</h2>
+                    <p class="subscribe__text">Подпишись на рассылку и получи гайд «Как подготовиться к чемпионату» от экспертов VK</p>
+                    
+                    <form class="subscribe__form" id="subscribeForm">
+                        <div class="subscribe__input-wrapper">
+                            <input type="email" class="subscribe__input" id="subscribeEmail" placeholder="your@email.ru" required>
+                            <span class="subscribe__input-focus"></span>
+                        </div>
+                        <button type="submit" class="btn btn--primary subscribe__btn">Подписаться</button>
+                    </form>
+                    
+                    <div class="subscribe__message" id="subscribeMessage"></div>
+                    
+                    <p class="subscribe__agreement">
+                        Нажимая кнопку, вы соглашаетесь на обработку персональных данных
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="modal" id="registerModal">
+            <div class="modal__overlay"></div>
+            <div class="modal__content">
+                <button class="modal__close" id="closeModal">&times;</button>
+                <h3 class="modal__title">Регистрация на чемпионат</h3>
+                <p class="modal__text">Регистрация на чемпионат уже открыта. Подпишись на рассылку, чтобы не получать всю актуальную информацию о чемпионате</p>
+                <button class="btn btn--primary" id="modalSubscribeBtn">Подписаться на новости</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__info">
+                    <div class="footer__logo">
+                        <span class="logo__text">VK</span>
+                    </div>
+                    <p class="footer__copyright">© 2026 VK Education.<br>Все права защищены</p>
+                </div>
+                
+                <div class="footer__social">
+                    <h4 class="footer__title">Мы в соцсетях</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="VKontakte">
+                            <img src="assets/icons/vk.svg" alt="VK" width="40" height="40">
+                        </a>
+
+                        <a href="#" class="social-link" aria-label="Telegram">
+                            <img src="assets/icons/tg.svg" alt="Telegram" width="40" height="40">
+                        </a>
+
+                        <a href="#" class="social-link" aria-label="Rutube">
+                            <img src="assets/icons/rutube.svg" alt="Rutube" width="40" height="40">
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__contacts">
+                    <h4 class="footer__title">Контакты</h4>
+                    <a href="mailto:challenge@vk.education" class="footer__link">spring_championship2026@vk.education</a>
+                    <p class="footer__text">Москва, Ленинградский пр-т, 39c79</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
